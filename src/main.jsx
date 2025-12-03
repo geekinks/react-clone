@@ -8,18 +8,19 @@ import Internships from "./pages/Internships";
 import Teams from "./pages/Teams";
 
 import App from "./App";
+import "./css/index.css"
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-        <App/>
-       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/teams" element={<Teams />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/internships" element={<Internships />} />
-          <Route path="/blogs" element={<Blogs />} />
-       </Routes>
-    </BrowserRouter>  
+      <App />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/teams" element={<Teams />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/internships" element={<Internships />} />
+        <Route path="/blogs" element={<Blogs />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
