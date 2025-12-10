@@ -16,7 +16,7 @@ export default function Hero() {
       </p>
 
       <div className="first-div">
-        <img src="/images/imgi_2_lab01.png" alt="Lab" />
+        <img src="../../../public/images/imgi_2_lab01.png" alt="Lab" />
         <div className="state-of">
           <h1>State-of-the-Art Learning Environment</h1>
           <p>
@@ -39,7 +39,7 @@ export default function Hero() {
 
       <div className="last-div">
         <div className="left-div">
-          <img src="/images/left.jpg" alt="Alumni 1" />
+          <img src="../../../public/images/left.jpg" alt="Alumni 1" />
           <p>Comrade Usman Shehu TKB</p>
           <p>Former Intern - NAS President</p>
           <p>Defense Project:</p>
@@ -47,7 +47,7 @@ export default function Hero() {
         </div>
 
         <div className="left-div">
-          <img src="/images/middle.jpg" alt="Alumni 2" />
+          <img src="../../../public/images/middle.jpg" alt="Alumni 2" />
           <p>Comrade Abdulkadir Adamu</p>
           <p>Former Intern - ICT President</p>
           <p>Defense Project:</p>
@@ -55,7 +55,7 @@ export default function Hero() {
         </div>
 
         <div className="left-div">
-          <img src="/images/right.jpg" alt="Alumni 3" />
+          <img src="../../../public/images/right.jpg" alt="Alumni 3" />
           <p>Comrade Kamalluddeen Ibrahim Isah</p>
           <p>Former Intern - Software Director</p>
           <p>Defense Project:</p>
